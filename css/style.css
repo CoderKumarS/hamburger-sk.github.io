@@ -37,7 +37,9 @@ body{
   text-decoration:none;
 }
 .nav li a:hover{
-  border: 1px solid #fff;
+  display: block;
+  background-color: #fff;
+  color: #f55c47;
 }
 .nav li{
   list-style: none;
@@ -54,7 +56,7 @@ body{
 }
 .icon #bar2{
    opacity: 0;
-}
+  }
 .change{
   background-color: #f55c47;
   margin: 0;
@@ -69,3 +71,6 @@ body{
   align-items: center;
   justify-content: center;
 }
+/* .element{
+  display: block;
+} */
